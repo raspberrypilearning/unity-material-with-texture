@@ -1,59 +1,19 @@
-## Introduction
+The material of a GameObject controls how it looks. A material can have a colour and a texture and there are lots of properties that you can adjust to get different effects. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In the Model view, navigate to 'My Assets' then right-click and choose 'Create' -> 'Material'. Give the material a descriptive name. 
 
-### What you will make
+Click on the colour next to 'Base Map' in the Inspector and choose a colour for your material. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+![In the Material component, the box to the right of 'Base Map' is filled with the colour green.](images/base-green.png)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+You can optionally add a texture by clicking on the circle to the left of 'Base Map' and selecting a texture. Note that textures are usually designed for a specific shape of object so the texture will need to be suitable for the shape you will be using it with. The 'Stone Wall' and 'Brick Wall' textures can be used on cube GameObjects. 
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+![In the Material component, the circle to the left of 'Base Map' is annotated. A popup window shows the Brick Wall texture. ](images/add-texture.png)
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+**Tip:** Adding both a colour and a texture will apply both the colour and texture to the material.
 
-+ A computer or tablet capable of running Scratch 3
+![Green, blue and purple brick materials.](images/coloured-brick.png)
 
-### Software
+The **Tiling** property controls how the texture repeats. Bigger numbers will make the pattern smaller. 
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+There are lots of other settings that you can experiment with to control how metallic the surface will be and how it reflects light. 
