@@ -1,6 +1,6 @@
 The material of a GameObject controls how it looks. A material can have a colour and a texture and there are lots of properties that you can adjust to get different effects. 
 
-In the Model view, navigate to 'My Assets' then right-click and choose 'Create' -> 'Material'. Give the material a descriptive name. 
+In the Model view, navigate to 'My Assets' then right-click and choose 'Create' -> 'Material'. Give the material a descriptive name such as 'Red Brick' or 'Snow'. 
 
 Click on the colour next to 'Base Map' in the Inspector and choose a colour for your material. 
 
