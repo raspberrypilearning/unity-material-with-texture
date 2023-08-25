@@ -1,24 +1,24 @@
-The material of a GameObject controls how it looks. A material can have a colour and a texture and there are lots of properties that you can adjust to get different effects.
+Het materiaal van een GameObject bepaalt hoe het eruitziet. Een materiaal kan een kleur en een structuur hebben en er zijn veel eigenschappen die je kunt aanpassen om verschillende effecten te krijgen.
 
-In the Project view, right-click and choose **Create** > **Material**. Give the material a descriptive name such as 'Red Brick' or 'Snow'.
+Klik in de Projectweergave met de rechtermuisknop en kies **Create** > **Material**. Geef het materiaal een duidelijke naam zoals 'Rode Baksteen' of 'Sneeuw'.
 
-Click on the colour next to 'Albedo' in the Inspector and choose a colour for your material.
+Klik op de kleur naast 'Albedo' in de Inspector en kies een kleur voor je materiaal.
 
-![In the Material component, the box to the right of 'Albedo' is filled with the colour green.](images/base-green.png)
+![In de component Materiaal is het vak rechts van 'Albedo' gevuld met de kleur groen.](images/base-green.png)
 
-You can optionally add a texture by clicking on the circle to the left of 'Albedo' and selecting a texture. Note that textures are usually designed for a specific shape of object so the texture will need to be suitable for the shape you will be using it with. For example, the 'Stone Wall' and 'Brick Wall' textures can be used on cube GameObjects.
+Als je wil kun je een textuur toevoegen door op de cirkel te klikken links van 'Albedo' en een textuur te selecteren. Houd er rekening mee dat texturen meestal zijn ontworpen voor een specifieke vorm van een object, dus de textuur moet geschikt zijn voor de vorm die je gebruikt. De texturen 'Stone Wall' en 'Brick Wall' kunnen bijvoorbeeld worden gebruikt op kubus GameObjects.
 
-![In the Material component, the circle to the left of 'Base Map' is annotated. A pop-up window shows the Brick Wall texture.](images/add-texture.png)
+![In de Material component is de cirkel links van 'Base Map' geannoteerd. Een pop-upvenster toont de Brick Wall-structuur.](images/add-texture.png)
 
-**Tip:** Adding both a colour and a texture will apply both the colour and texture to the material.
+**Tip:** Als je zowel een kleur als een textuur toevoegt, wordt zowel de kleur als de textuur toegepast op het materiaal.
 
-![Green, blue, and purple brick materials.](images/coloured-brick.png)
+![Groene, blauwe en paarse baksteenmaterialen.](images/coloured-brick.png)
 
-To add a material to a GameObject, navigate to the material in the Project window and drag the material over the GameObject in the scene view. The new material will be applied immediately.
+Om materiaal toe te voegen aan een GameObject, navigeer je naar het materiaal in het projectvenster en sleep je het materiaal over het GameObject in de scene view. Het nieuwe materiaal wordt direct toegepast.
 
 
-The **Tiling** property controls how the texture repeats. Bigger numbers will make the pattern smaller.
+De eigenschap **Tiling** bepaalt hoe de textuur wordt herhaald. Grotere getallen maken het patroon kleiner.
 
-You can adjust the **Tiling** and other properties in the Inspector for the material, or in the Inspector for each GameObject that uses the texture. Experiment to get a result you like!
+Je kunt de **Tiling** en andere eigenschappen aanpassen in de Inspector voor het materiaal, of in de Inspector voor elk GameObject dat de textuur gebruikt. Experimenteer om het gewenste resultaat te krijgen!
 
-There are lots of other settings that you can experiment with to control how metallic the surface will be and how it reflects light. 
+Er zijn tal van andere instellingen waarmee je kunt experimenteren om te bepalen hoe metaalachtig het oppervlak zal zijn en hoe het licht reflecteert. 
